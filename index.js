@@ -7,7 +7,7 @@ app.use(cors()); // Enable CORS for all routes
 app.use(express.json());
 
 const ai = new GoogleGenAI({
-  apiKey: "AIzaSyAxK1swAMnRBx9k9R3fPcoXPEk0FutMwWM",
+  apiKey: "API KEY",
 });
 
 // Add error handling middleware
